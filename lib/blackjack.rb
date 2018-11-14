@@ -6,7 +6,7 @@ def deal_card
   return rand(1..11)
 end
 
-def display_card_total(number)
+def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
 end
 
@@ -28,7 +28,6 @@ def initial_round
   card_total = card1 + card2
   display_card_total
   return display_card_total
-  
 end
 
 def hit?
