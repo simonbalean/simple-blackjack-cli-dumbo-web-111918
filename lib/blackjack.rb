@@ -50,6 +50,10 @@ end
 #####################################################
 
 def runner
+  Welcome
+  deal_card
+  
+  
   until card_total = 21
   
 end
