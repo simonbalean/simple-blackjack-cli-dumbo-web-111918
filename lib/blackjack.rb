@@ -54,7 +54,6 @@ def runner
  initial_round
   
   
-  until card_total = 21
   
 end
     
