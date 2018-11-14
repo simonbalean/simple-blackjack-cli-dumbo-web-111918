@@ -4,7 +4,6 @@ end
 
 def deal_card
   return rand(0..12)
-  return card
 end
 
 def display_card_total
