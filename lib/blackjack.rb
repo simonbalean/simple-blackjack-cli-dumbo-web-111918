@@ -50,6 +50,7 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  until card_total = 21
+  
 end
     
