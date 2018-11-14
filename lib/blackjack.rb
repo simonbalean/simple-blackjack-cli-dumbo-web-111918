@@ -51,9 +51,8 @@ end
 
 def runner
   welcome
-  deal_card
-  prompt_user
-  hit?
+ initial_round
+ 
   
   
   until card_total = 21
